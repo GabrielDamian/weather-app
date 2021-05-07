@@ -1,0 +1,7 @@
+https://elastic-pike-ac789b.netlify.app/
+//FireBase Host Block Some Api Request(because of http)
+
+
+Weather API:
+// `http://api.openweathermap.org/data/2.5/weather?q=asdassd&appid=fd293a860fcd9245dd9a593f8614ebdd`
+

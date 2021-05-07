@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.LeftInfo-container
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.alingment
+{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-aligment
+{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.grade-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: 600;
+}
+.grade-container img
+{
+    height: 60px;
+    width: 55px;
+}
+.middlelocation
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+.span-location
+{
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-container
+{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

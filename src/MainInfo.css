@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.MainInfo-body
+{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    min-width: 400px;
+    /* border: 2px solid black; */
+    color: white;
+    /* background-color: rgb(0,0,0); */
+    background-color: rgba(0,0,0, 0.4); 
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(5px);
+}
+/* --------- Input Section --------*/
+.input {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.input-container
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.input-container input
+{
+    width: 80%;
+    margin-left: 50px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #9c9c9c;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    
+}
+.input-container input::placeholder
+{
+    color: #dedede;
+}
+.input input:focus
+{
+    border-bottom: 2px solid white;
+    transition: border-bottom 0.3s;
+}
+.search-button
+{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 80px;
+    border: 1px solid white;
+    background-color: #e6e7e8;
+    opacity: 0.4;
+}
+.search-button:active
+{
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+.search-button img
+{
+    height: 40px;
+    width: 40px;
+}
+/* --------- Locations Section --------*/
+.locations
+{
+    height: 45%;
+}
+.location-container
+{
+    height: 100%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.compacter
+{
+    display: flex;
+    flex-direction: row;
+}
+.compacter > button 
+{
+    margin-left: 35px;
+    border: none;
+    outline: none;
+    padding: 10px 8px;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #e6e7e8;
+    opacity: 0.4;
+    border: 2px solid transparent;
+}
+.compacter > button:active
+{
+    background-color: white;
+    transition: background-color 0.2s;
+    border: 2px solid white;
+}
+.location-container > h3
+{
+    margin-top: 10px;
+}
+
+
+/* --------- Info Section --------*/
+
+.details
+{
+    height: 45%;
+}
+.details-container
+{
+    height: 100%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.details-container > h3
+{
+    margin-top: 10px;
+}

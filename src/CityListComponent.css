@@ -1,0 +1,14 @@
+.city-components
+{
+    border-bottom: 2px solid transparent;
+}
+.city-components:hover
+{
+    border-bottom: 2px solid white;
+    transition-property: border;
+    transition-duration: 1s;
+}
+.city-components:active
+{
+    font-weight: 600;
+}
